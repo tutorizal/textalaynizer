@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        String text = "Sarimin pergi ke pasar";
+        String text = "Sarimin pergi ke pasar katanya";
         String result = AlayHelper.alaynize(text);
 
         Toast.makeText(this, result, Toast.LENGTH_SHORT).show();
